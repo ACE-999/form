@@ -5,6 +5,7 @@
 var mysql2=require("mysql2");
 //var dotenv=require("dotenv").config()
 
+//db connection
 var connection=mysql2.createConnection({
     host: "localhost",
     user: "root",
